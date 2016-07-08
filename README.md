@@ -25,7 +25,7 @@ $ go build -v
 Go back to the projects root dir and call goagen
 
 ```
-$ cd GOPATH/src/github.com/kwk/broken-goagen
+$ cd $GOPATH/src/github.com/kwk/broken-goagen
 $ ./vendor/github.com/goadesign/goa/goagen/goagen app -d github.com/kwk/broken-goagen/design
 ```
 
