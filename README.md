@@ -5,8 +5,8 @@ Download glide v0.11.0 from the release page https://github.com/Masterminds/glid
 Clone this repo into your `$GOPATH`:
 
 ```
-$ git clone https://github.com/kwk/broken-glide $$GOPATH/src/github.com/kwk/broken-glide
-$ cd GOPATH/src/github.com/kwk/broken-glide
+$ git clone https://github.com/kwk/broken-goagen $GOPATH/src/github.com/kwk/broken-goagen
+$ cd $GOPATH/src/github.com/kwk/broken-goagen
 ```
 
 Fetch all go dependencies into the `vendor` directory:
@@ -25,7 +25,7 @@ $ go build -v
 Go back to the projects root dir and call goagen
 
 ```
-$ cd GOPATH/src/github.com/kwk/broken-glide
+$ cd GOPATH/src/github.com/kwk/broken-goagen
 $ ./vendor/github.com/goadesign/goa/goagen/goagen app -d test/design
 ```
 
