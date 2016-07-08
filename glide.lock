@@ -1,0 +1,32 @@
+hash: 599f8c639beb685654459982f6d6107d7bbe60f8a6a3de256b192a40575ae3d5
+updated: 2016-07-08T12:58:34.03434585+02:00
+imports:
+- name: github.com/dimfeld/httppath
+  version: c8e499c3ef3c3e272ed8bdcc1ccf39f73c88debc
+- name: github.com/goadesign/goa
+  version: a520ec028146a329500696970c8522a36f578c60
+  vcs: git
+  subpackages:
+  - client
+  - design
+  - design/apidsl
+  - dslengine
+  - goagen
+  - middleware
+- name: github.com/manveru/faker
+  version: 717f7cf83fb78669bfab612749c2e8ff63d5be11
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/spf13/cobra
+  version: 6a8bd97bdb1fc0d08a83459940498ea49d3e8c93
+- name: github.com/spf13/pflag
+  version: 367864438f1b1a3c7db4da06a2f55b144e6784e0
+- name: github.com/zach-klippenstein/goregen
+  version: 795b5e3961ea1912fde60af417ad85e86acc0d6a
+- name: golang.org/x/tools
+  version: 527b253f588776e5f72a0a0d1e93195cd3f82707
+  subpackages:
+  - go/ast/astutil
+- name: gopkg.in/yaml.v2
+  version: a83829b6f1293c91addabc89d0571c246397bbf4
+testImports: []
