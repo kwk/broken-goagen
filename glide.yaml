@@ -1,4 +1,4 @@
-package: test
+package: github.com/kwk/broken-goagen
 import:
 - package: github.com/goadesign/goa
   version: master
