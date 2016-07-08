@@ -26,7 +26,7 @@ Go back to the projects root dir and call goagen
 
 ```
 $ cd GOPATH/src/github.com/kwk/broken-goagen
-$ ./vendor/github.com/goadesign/goa/goagen/goagen app -d test/design
+$ ./vendor/github.com/goadesign/goa/goagen/goagen app -d github.com/kwk/broken-goagen/design
 ```
 
 You should see this error now:
